@@ -59,6 +59,7 @@ insertButton.addEventListener("click", () => {
 
     // Delete button
     noteDelete.textContent = "❌";
+    // Can be done with event delegation
     noteDelete.addEventListener("click", () => {
       // if implement time, change below to [1], [0] originally
       let currNoteText = noteDelete.parentNode.childNodes[1].textContent;
